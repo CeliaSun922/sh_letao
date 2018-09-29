@@ -12,9 +12,11 @@
     },500);
   })
 
+  $(function() {
+
   // 侧边栏分类栏显示隐藏切换
   $('.side_nav .main_category').click(function(){
-    $('.side_nav .side_categray').stop().slideToggle()
+    $(".side_nav .side_categray").stop().slideToggle()
 
   })
 
@@ -28,6 +30,8 @@
 
 
   })
+
+  
 
   //退出时显示模态框
 
@@ -53,3 +57,4 @@
 
 
   })
+})
